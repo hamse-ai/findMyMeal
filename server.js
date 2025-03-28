@@ -6,14 +6,14 @@ const path = require('path');
 
 
 const app = express();  
-app.use(express.static('public'));
+app.use(express.static('public')); // serve static files
 
 
 dotenv.config();  // Load environment variables from .env
 
 const port = 3000;
 
-const apiKey = process.env.SPOONACULAR_API_KEY; // Load API key from .env file
+const apiKey = process.env.SPOONACULAR_API_KEY; // Load API key from my .env file, u should create a file n store ur key inside
 
 // Endpoint to fetch recipes based on ingredients
 app.get('/api/recipes', async (req, res) => {
