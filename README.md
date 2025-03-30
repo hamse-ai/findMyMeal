@@ -10,7 +10,7 @@ This web application allows users to find meal recipes based on ingredients they
 
 ## Demo
 
-- A demo of the app can be found at [link to your demo]. (Optional if you're deploying it to a live site)
+- A demo of the app can be found at https://youtu.be/jQj6-z3GF_w
 
 ## Table of Contents
 - [Installation](#installation)
